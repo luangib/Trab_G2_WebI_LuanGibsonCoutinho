@@ -1,0 +1,723 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&family=Poppins&display=swap');
+
+
+:root{
+--cor0: aliceblue;
+--cord0:#9b3030;
+--cord1:#494842;
+--cord2:#36393e;
+--cord3:#282b30;
+--cord4:#1e2124;
+/* 
+#5c64f3
+
+#4751ed
+
+#5c6cc9
+
+#f3faf8
+
+#7464a4 */
+
+--fonttitulos:'Chakra Petch', sans-serif;;
+--fontpadrao:'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+    a{
+      text-decoration: none;
+      color: var(--cor0);
+    }
+
+   
+    div{
+      color:var(--cor0);
+      font-family:var(--fontpadrao);
+    }
+
+    nav{
+   display: flex;
+   justify-content: space-around;
+   background-color:var(--cord4);
+   width: 100%;
+   height: 70px;
+   position: fixed;
+   top: 0;
+   z-index: 100;
+    
+    
+
+    }
+    
+    nav ul{display: flex;
+     list-style-type: none;
+       
+       }
+    
+    nav> ul> li{
+      position: relative;
+      
+      color:var(--cor0);
+      display: inline-block;
+      padding: 20px;
+      text-decoration: none;
+      font-family: var(--fontpadrao);
+      
+      
+
+    
+       }
+       
+nav ul li:hover {
+background-color: rgba(10, 10, 10, 0.226);
+    
+}
+
+nav ul li ul{
+   position: absolute;
+   display: none;
+   left: 0;
+   top:100%;
+background-color: #1e2124;
+min-width: 130px;
+
+   
+}
+nav ul li:hover ul{
+   display: block;
+         
+   }
+
+
+
+nav> ul> li> ul>li a{
+display: block;
+padding: 20px;
+text-decoration: none;
+
+}
+    
+/* --------------------------------- */
+
+nav> a{
+
+padding: 20px;
+text-decoration: none;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+nav> a img {
+display: inline;
+width: 20px;
+height: 20px;
+
+
+}
+nav> a> div{
+   display: inline;
+
+   }
+
+
+
+
+
+
+
+ 
+
+body{
+margin: 58px 0 0 0 ;
+background-color: #282b30;
+
+/*---------------------------------Index-----------------------------------------------  */
+}
+section{
+width: 100%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+
+
+.c1{
+   width: 100%;
+   height: 60vh;
+   background-color: var(--cord0);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+
+}
+
+.c1 h1{
+
+text-align: center;
+font-family: 'Chakra Petch', sans-serif;
+color: var(--cor0);
+font-size: 70px;
+text-shadow: 3px 3px var(--cord4);
+
+
+
+
+}
+
+.c1 div{
+   font-size: 24px;
+   text-align: justify;
+   width: 50%;
+   
+
+   
+   }
+
+
+
+.c2{
+background-color: var(--cord3);
+width: 100%;
+height: 50vh;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+.c2> div{
+width: 30%;
+}
+
+.c2>div h1{
+margin: 0 0 20px;
+font-family: var(--fonttitulos);
+font-size: 30px;
+
+
+}
+
+.c2 img{
+width: 300px;
+height: 300px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+
+}
+
+.c2> div div{
+   text-align: justify;
+   
+   }
+
+.c2> h1{
+   font-size: 200px;
+   color: var(--cord0);
+   text-shadow: 3px 3px var(--cord4);
+
+}
+
+.c3{
+   background-color: var(--cord4);
+   width: 100%;
+   height: 50vh;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+
+   }
+   
+
+.c3> div{
+      width: 30%;
+}
+      
+.c3>div h1{
+      margin: 0 0 20px;
+      font-family: var(--fonttitulos);
+      font-size: 30px;
+      
+      
+}
+      
+.c3 img{
+width: 350px;
+height: 350px;
+
+
+}
+
+.c3> div div{
+text-align: justify;
+
+}
+
+.c3> h1{
+   font-size: 200px;
+   color: var(--cord0);
+   text-shadow: 3px 3px var(--cord4);
+
+}
+.c4{
+   background-color: var(--cord3);
+   width: 100%;
+   height: 50vh;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+
+   }
+   
+
+.c4> div{
+      width: 30%;
+}
+      
+.c4>div h1{
+      margin: 0 0 20px;
+      font-family: var(--fonttitulos);
+      font-size: 30px;
+      
+      
+}
+      
+.c4 img{
+width: 350px;
+height: 350px;
+
+
+}
+
+.c4> div div{
+text-align: justify;
+
+}
+
+.c4> h1{
+   font-size: 200px;
+   color: var(--cord0);
+   text-shadow: 3px 3px var(--cord4);
+
+}
+
+
+
+
+
+/* -------------------------- Pag1 Sistemas -------------------------- */
+
+/* c1 foi utilizado em todos as PAginas como titulo */
+
+.sistemas{
+width: 100%;
+
+
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+
+background-color: var(--cord3);
+
+
+
+}
+
+.sistemas> div{
+
+
+background-color: var(--cord4);
+border-radius: 20px;
+padding: 20px;
+height: 490px;
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: column;
+margin: 30px ;
+
+
+}
+.sistemas> div> img{
+
+border-radius: 20px;
+width: 227px;
+background-color: var(--cord0);
+
+
+}
+
+.sistemas> div> div> h1{
+
+   font-size: 40px;
+   text-align: center;
+   
+   
+   }
+
+.sistemas a{
+display: block;
+margin: 10px;
+color: var(--cord4);
+background-color: aliceblue;
+padding: 5px;
+border-radius: 30px;
+text-align: center;
+
+}
+
+
+.personagens, footer{
+   width: 80%;
+background-color:var(--cord3);
+margin: 0 auto;
+
+
+
+}
+.personagens div{
+   margin: 0 0 20px 0;
+   font-size: 22px;
+   text-align: justify;
+   
+   
+   }
+
+   .personagens h1{
+      color: var(--cord0);
+      font-family: var(--fonttitulos);
+      font-size: 40px;
+      margin: 20px 0 40px 0;
+      text-shadow: 3px 3px var(--cord4);
+      
+      }   
+
+
+.comunidade{
+display: flex;
+justify-content: center;
+align-items: center;
+
+flex-wrap: wrap;
+
+
+}
+
+.comunidade div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background-color: var(--cord4);
+   border-radius: 20px;
+   margin: 40px 20px 20px;
+  padding: 20px;
+   
+   
+   }
+
+   .comunidade div img {
+border-radius: 100%;
+width: 200px;
+
+
+   }
+
+   .comunidade div a{
+      display: block;
+      margin: 10px;
+      color: var(--cord4);
+      background-color: var(--cor0);
+      padding: 5px;
+      border-radius: 40px;
+      text-align: center;
+
+
+   }
+
+
+   /* Scroll bar */
+   body::-webkit-scrollbar {
+      width: 5px;
+      height: 8px;
+      background-color: var(--cord1); /* or add it to the track */
+      
+      
+    }
+    
+    /* Add a thumb */
+    body::-webkit-scrollbar-thumb {
+      background: var(--cord4);
+    }
+    
+
+    footer{
+      background-color: #1e2124;
+      width: 100%;
+      height: max-content;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px; ;
+
+    }
+
+    footer> div{ 
+   display: flex;
+   align-items: center;
+   justify-items: center;
+   flex-direction: column;
+   
+    }
+
+    footer> div div{ 
+    margin: 40px 0 20px;
+    color: var(--cord0);
+    text-shadow: 1px 1px #494842;
+    font-size: 18px;
+    text-align: justify;
+    width: 70%;
+   
+       }
+
+   footer> div> div{ 
+   margin: 40px 0 20px;
+   color: var(--cord0);
+   text-shadow: 1px 1px #494842;
+   font-size: 18px;
+   
+      } 
+
+      footer> div iframe{ 
+        margin: 50px;
+         
+            } 
+            footer> div> a{ 
+
+               display: block;
+               margin: 10px 0 50px;
+               color: var(--cord4);
+               background-color: var(--cor0);
+               width: 90px;
+               padding: 20px;
+               border-radius: 40px;
+               text-align: center;
+               
+
+                  } 
+            .escondido{
+               display: none;
+
+            }
+           
+            
+
+   @media screen and (orientation: portrait), (max-width: 850px ) and (min-width: 601px) {
+      .c1{
+         height: 80vh;
+
+
+      }
+      .c1 h1{
+         font-size: 40px;
+
+
+      }
+      .c1 div{
+         font-size: 20px;
+         width: 70%;
+
+
+      }
+      body::-webkit-scrollbar {
+        display: none;
+         
+         
+       }
+
+
+       .c2{
+         height: 70vh;
+         flex-direction: column;
+
+
+       }
+       .c2> h1{
+         font-size: 50px;
+
+
+       }
+       .c2> div{
+         width:80% ;
+         
+
+
+       }
+
+
+       /* ----------------------- */
+       .c3{
+         height: 70vh;
+         flex-direction: column;
+
+
+       }
+       .c3> h1{
+         font-size: 50px;
+
+
+       }
+       .c3> div{
+         width:80% ;
+         
+
+
+       }
+       /* ------------------ */
+       .c4{
+         height: 70vh;
+         flex-direction: column;
+
+
+       }
+       .c4> h1{
+         font-size: 50px;
+
+
+       }
+       .c4> div{
+         width:80% ;
+         
+
+
+       }
+       
+       nav a div{
+         display: none;
+
+      }
+      nav a img{
+         width: 30px;
+         height: 30px;
+
+      }
+
+      .personagens div{
+         font-size: 16px;
+
+      }
+      .personagens h1{
+         font-size: 30px;
+
+      }
+
+      .escondido{
+         display: block;
+
+      }
+
+      .video1{ 
+         display: none;
+         
+            } 
+
+   }
+
+   @media screen and (max-height: 600px) and (orientation: landscape)    {
+      
+      .c1{
+         height: 280px;
+
+
+      }
+      .c1 h1{
+         font-size: 40px;
+
+
+      }
+      .c1 div{
+         font-size: 20px;
+         width: 70%;
+      }
+
+         body::-webkit-scrollbar {
+            display: none;
+             
+             
+           }
+    
+    
+           .c2{
+             height: 300px;
+             
+    
+    
+           }
+           .c2> h1{
+             font-size: 50px;
+    
+    
+           }
+           .c2> div{
+             width:80% ;
+             
+    
+    
+           }
+    
+    
+           /* ----------------------- */
+           .c3{
+             height: 300px;
+             
+    
+    
+           }
+           .c3> h1{
+             font-size: 50px;
+    
+    
+           }
+           .c3> div{
+             width:80% ;
+             
+    
+    
+           }
+           /* ------------------ */
+           .c4{
+             height: 300px;
+           
+    
+    
+           }
+           .c4> h1{
+             font-size: 50px;
+    
+    
+           }
+           .c4> div{
+             width:80% ;
+             
+    
+    
+           }
+
+           
+         }
+
+        
